@@ -1,7 +1,7 @@
 FROM nvidia/cuda:11.1.1-devel-ubuntu20.04
 
-ARG USER=seunguk
-ARG UID=1012
+ARG USER=jinoh
+ARG UID=1014
 
 # Add user
 RUN useradd --create-home --shell /bin/bash --uid $UID --user-group -G sudo $USER
